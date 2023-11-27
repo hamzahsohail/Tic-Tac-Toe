@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utils.css">
+</head>
+<body>
+    <div id="container" class="flex">
+        <nav id="navbar">
+            <h1>Tic Tac Toe</h1>
+        </nav>
+        <div id="tic-tac-toe-box" class="grid">
+            <div id="boxA1" class="box flex"></div>
+            <div id="boxA2" class="box flex"></div>
+            <div id="boxA3" class="box flex"></div>
+            <div id="boxB1" class="box flex"></div>
+            <div id="boxB2" class="box flex"></div>
+            <div id="boxB3" class="box flex"></div>
+            <div id="boxC1" class="box flex"></div>
+            <div id="boxC2" class="box flex"></div>
+            <div id="boxC3" class="box flex"></div>
+        </div>
+        <div id="progress" class="none">
+            Under Construction
+        </div>
+        <div id="game-controls" class="flex">
+            <div id="player-selector" class="flex">
+                <div id="number-of-player">1P</div>
+                <button onclick="playerfunc(targetBox)">
+                    <i class="fa-solid fa-dice-one"></i>
+                </button>
+            </div>
+            <div id="turn-display">
+                X turn
+            </div>
+        </div>
+        <footer>PLEASE PLAY ON FULL SCREEN/WINDOW</footer>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/70cac85834.js" crossorigin="anonymous"></script>
+<script src="/js/script.js"></script>
+</html>

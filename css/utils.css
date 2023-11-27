@@ -1,0 +1,50 @@
+.grid
+{
+    display: grid;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.none
+{
+    display: none;
+}
+
+.grayed-out
+{
+    color: gray;
+}
+
+@keyframes blink
+{
+    0%
+    {
+        color: white;
+    }
+    25%
+    {
+        color: black;
+    }
+    50%
+    {
+        color: white;
+    }
+    75%
+    {
+        color: black;
+    }
+    100%
+    {
+        color: white;
+    }
+}
+
+.highlight
+{
+    border-color: gray;
+
+    animation: blink 1s linear infinite;
+}
